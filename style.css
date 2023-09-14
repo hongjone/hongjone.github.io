@@ -233,6 +233,7 @@ li{
   flex: 1 0 0;
   padding-left: var(--decorator-horizontal-margin);
   padding-top: calc(var(--row-blocks-padding-top) - 0.5pt) !important; /* not sure why but this is needed for better alignment */
+  line-height: 1.5;
 }
 
 .details header{
@@ -291,6 +292,7 @@ li{
 
 #main li{
   margin: 0 0 0.025in 0;
+  line-height: 1.5;
 }
 
 /****** customize list symbol style ******/
