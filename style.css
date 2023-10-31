@@ -118,7 +118,7 @@ li{
   position: absolute;
   left: var(--main-blocks-title-icon-offset-left);
   z-index: 1; /* over decorator line */
-  color: #444;
+  color: #384775;
 }
 
 #main h2::after{ /* extends the decorator line */
