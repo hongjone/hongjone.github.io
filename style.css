@@ -40,14 +40,9 @@ body{
   hyphens: auto;
 }
 
-h1, h3{
+h1, h2, h3{
   margin: 0;
   color: #000;
-}
-
-h2{
-  margin: 0;
-  color: #384775;
 }
 
 li{
@@ -113,7 +108,7 @@ li{
   left: calc((var(--date-block-width) + var(--decorator-horizontal-margin)));
   font-weight: 400;
   font-size: 11pt;
-  color: #555;
+  color: #384775;
 }
 
 #main h2 > i{
