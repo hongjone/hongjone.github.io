@@ -4,7 +4,7 @@ This repository contains a minimalist, modern, and professional resume template 
 
 ## Features
 
-- **Print-Ready**: Optimized for printing on Letter-sized paper (8.6in x 11in) using `@page` CSS rules.
+- **Print-Ready**: Optimized for printing on A4-sized paper (210mm x 297mm) using `@page` CSS rules.
 - **Two-Column Layout**: A clear, organized structure with a main content area and a sidebar for contact information and skills.
 - **Modern Design**: Uses "Open Sans" typography and FontAwesome icons for a polished look.
 - **Timeline-Style Experience**: A custom-styled experience section with a vertical timeline and decorators.
@@ -23,7 +23,7 @@ To use this template for your own resume, follow these steps:
 
 ## Usage
 
-Simply open `index.html` in any modern web browser to view your resume. To save as a PDF or print, use the browser's print function (Ctrl+P or Cmd+P) and ensure the paper size is set to "Letter".
+Simply open `index.html` in any modern web browser to view your resume. To save as a PDF or print, use the browser's print function (Ctrl+P or Cmd+P) and ensure the paper size is set to "A4".
 
 ## Built With
 

@@ -1,5 +1,5 @@
 @page{
-  size: letter portrait;
+  size: A4 portrait;
   margin: 0;
 }
 
@@ -8,9 +8,9 @@
 }
 
 :root{
-  --page-width: 8.6in;
-  --page-height: 11in;
-  --main-width: 6.4in;
+  --page-width: 210mm;
+  --page-height: 297mm;
+  --main-width: 154mm;
   --sidebar-width: calc(var(--page-width) - var(--main-width));
   --decorator-horizontal-margin: 0.2in;
 
@@ -30,8 +30,6 @@
 }
 
 body{
-  width: var(--page-width);
-  height: var(--page-height);
   margin: 0;
   font-family: "Open Sans", sans-serif; 
   font-weight: 300;
@@ -99,6 +97,10 @@ li{
 /*** categorial blocks ***/
 .container {
   display: flex;
+  width: var(--page-width);
+  height: var(--page-height);
+  margin: 0 auto;
+  background-color: #fff;
 }
 
 .main-block{
