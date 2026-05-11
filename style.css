@@ -58,7 +58,6 @@ li{
   position: relative;
   flex: 0 0 var(--sidebar-width);
   padding: 0.6in var(--sidebar-horizontal-padding);
-  background-color: #f2f2f2;
   font-size: 8.5pt;
 }
 
@@ -99,7 +98,7 @@ li{
   width: var(--page-width);
   min-height: var(--page-height);
   margin: 0 auto;
-  background-color: #fff;
+  background: linear-gradient(to right, #fff var(--main-width), #f2f2f2 var(--main-width));
 }
 
 .main-block{
